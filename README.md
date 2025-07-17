@@ -41,10 +41,10 @@ User biasa bisa mengakses/mengubah data user lain hanya dengan mengganti user_id
 ### Jenis Serangan: Broken Access Control  
 Jenis serangan mengarah ke user, karena user bisa mengganti user_id lainnya.
 **Simulasi Postman:**  
-![alt text](image.png)
+<img width="1341" height="757" alt="Screenshot 2025-07-17 192836" src="https://github.com/user-attachments/assets/31469185-1c1a-49df-98d8-b3bab5edbff7" />
 **Solusi Implementasi:**  
 Menambahkan code pada file AuthFilter.php
-![alt text](image-1.png)
+<img width="1375" height="420" alt="Screenshot 2025-07-17 193609" src="https://github.com/user-attachments/assets/2fb90aad-ad84-4183-99ab-ef080d120314" />
 
 ## Bagian C – Refleksi Teori & Etika
 
