@@ -16,6 +16,9 @@ class AuthFilter implements FilterInterface
 
         if (!$token) {
             return Services::response()->setStatusCode(401)->setJSON(['error' => 'Token not found']);
+        if ($session->get('role') !== 'admin' && $session->get('user_id') !== $request->getVar('user_id')) {
+    return Services::response()->setStatusCode(403)->setJSON([
+        'message' => 'Forbidden'
         }
 
         try {
