@@ -8,7 +8,7 @@ Silakan lanjutkan pengembangan API dan perbaiki bug yang ditemukan.
 - Nama: Shasica Feby Juliananta
 - NIM: 221080200015
 - Kelas: Pengamanan Sistem Komputer 6B1/B4
-- Repo GitHub: [link]
+- Repo GitHub: [https://github.com/shasicaaa/project-latihanci4-jwt.git]
 
 ---
 
